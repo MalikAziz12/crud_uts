@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 10px 10px;
+    font-family: tahoma,sans-serif;
+    width: auto;
+    justify-content: center;
+    text-align: start;
+}
+.header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+   
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
